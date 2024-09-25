@@ -1,4 +1,4 @@
-Ứng Dụng Bán Balo
+#Ứng Dụng Bán Balo
 
 Đây là ứng dụng Android quản lý việc bán balo. Ứng dụng được xây dựng bằng Java và sử dụng SQLite để quản lý cơ sở dữ liệu cục bộ.
 
