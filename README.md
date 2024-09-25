@@ -3,7 +3,7 @@
 ## Tổng Quan
 Đây là ứng dụng Android quản lý việc bán balo. Ứng dụng được xây dựng bằng Java và sử dụng SQLite để quản lý cơ sở dữ liệu cục bộ.
 
-##Tính Năng
+## Tính Năng
 Đăng nhập/Đăng ký: Người dùng có thể đăng ký tài khoản và đăng nhập để sử dụng ứng dụng.
 Quản lý sản phẩm: Thêm, cập nhật, hoặc xóa balo trong kho.
 Giỏ hàng: Người dùng có thể thêm sản phẩm vào giỏ và tiến hành thanh toán.
@@ -79,7 +79,7 @@ Khi ứng dụng chạy, bạn có thể:
 Duyệt qua các sản phẩm balo.
 Thêm sản phẩm vào giỏ hàng và thanh toán.
 Quản lý kho hàng (nếu đăng nhập với tài khoản admin).
-Cấu Trúc Dự Án
+## Cấu Trúc Dự Án
 app/src/main/java: Chứa toàn bộ mã nguồn Java.
 Activities: Quản lý các màn hình trong ứng dụng.
 Adapters: Điều khiển cách hiển thị danh sách sản phẩm.
@@ -88,10 +88,11 @@ Utils/Helpers: Chứa các lớp tiện ích như DBHelper để kết nối cơ
 app/src/main/res/layout: Chứa các file XML cho giao diện người dùng.
 app/src/main/res/drawable: Chứa các hình ảnh và biểu tượng sử dụng trong ứng dụng.
 Công Nghệ Sử Dụng
-Android Studio: Môi trường phát triển ứng dụng Android.
-Java: Ngôn ngữ lập trình chính của ứng dụng.
-SQLite: Cơ sở dữ liệu cục bộ tích hợp trong Android để lưu trữ thông tin sản phẩm, người dùng và đơn hàng.
-Các Tính Năng Mở Rộng Dự Kiến
+### Android Studio: Môi trường phát triển ứng dụng Android.
+
+### Java: Ngôn ngữ lập trình chính của ứng dụng.
+### SQLite: Cơ sở dữ liệu cục bộ tích hợp trong Android để lưu trữ thông tin sản phẩm, người dùng và đơn hàng.
+## Các Tính Năng Mở Rộng Dự Kiến
 Tích hợp thanh toán trực tuyến: Thêm tính năng thanh toán online cho người dùng.
 Thông báo đẩy: Gửi thông báo về sản phẩm mới hoặc khuyến mãi cho người dùng.
 Bảng điều khiển phân tích: Thêm màn hình phân tích cho quản trị viên để theo dõi hiệu suất bán hàng.
