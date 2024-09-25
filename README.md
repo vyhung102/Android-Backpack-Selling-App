@@ -1,21 +1,26 @@
-#Ứng Dụng Bán Balo
+# Ứng Dụng Bán Balo
 
+## Tổng Quan
 Đây là ứng dụng Android quản lý việc bán balo. Ứng dụng được xây dựng bằng Java và sử dụng SQLite để quản lý cơ sở dữ liệu cục bộ.
 
-Tính Năng
+##Tính Năng
 Đăng nhập/Đăng ký: Người dùng có thể đăng ký tài khoản và đăng nhập để sử dụng ứng dụng.
 Quản lý sản phẩm: Thêm, cập nhật, hoặc xóa balo trong kho.
 Giỏ hàng: Người dùng có thể thêm sản phẩm vào giỏ và tiến hành thanh toán.
 Lịch sử đơn hàng: Người dùng có thể xem lịch sử các đơn hàng và trạng thái đơn hàng.
 Trang quản trị: Quản trị viên có thể quản lý kho hàng, xem đơn hàng và quản lý người dùng.
+
 Ảnh Màn Hình
-![image](https://github.com/user-attachments/assets/20e31708-8ba7-4834-845a-db7238bb946c)
-![image](https://github.com/user-attachments/assets/40505fe0-8017-46ec-860f-3e1bb49494d5)
-![image](https://github.com/user-attachments/assets/934c0b87-6cab-451d-809c-d7b339e90cab)
+
+![hình ảnh trang chủ](https://github.com/user-attachments/assets/f930dcd7-4145-43e1-bdea-40bb44fbb0a3)
+
+![hình ảnh trang chủ](https://github.com/user-attachments/assets/40505fe0-8017-46ec-860f-3e1bb49494d5)
+
+![hình ảnh trang chủ](https://github.com/user-attachments/assets/934c0b87-6cab-451d-809c-d7b339e90cab)
 
 
 
-Yêu Cầu Hệ Thống
+## Yêu Cầu Hệ Thống
 Trước khi bắt đầu, hãy đảm bảo rằng bạn đã cài đặt:
 
 Android Studio phiên bản X.X trở lên.
@@ -23,13 +28,13 @@ Java Development Kit (JDK) phiên bản 8 hoặc cao hơn.
 SQLite: SQLite được tích hợp sẵn trong Android nên không cần phải cài đặt thêm.
 Hướng Dẫn Cài Đặt
 
-1. Clone Repository
+### 1. Clone Repository
 bash
 Sao chép mã
 git clone https://github.com/your-username/Backpack-Selling-App.git
 cd Backpack-Selling-App
 
-2. Cấu Hình Cơ Sở Dữ Liệu SQLite
+### 2. Cấu Hình Cơ Sở Dữ Liệu SQLite
 Bạn không cần phải cài đặt hoặc cấu hình máy chủ cơ sở dữ liệu riêng vì SQLite là cơ sở dữ liệu cục bộ.
 
 Tạo hoặc cập nhật các bảng trong SQLite bằng cách sử dụng lớp SQLiteOpenHelper trong Android. Dưới đây là ví dụ về cách tạo bảng sản phẩm trong DBHelper (hoặc một lớp tương tự):
@@ -63,11 +68,11 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 }
 
-3. Build và Chạy Ứng Dụng
+### 3. Build và Chạy Ứng Dụng
 Mở dự án trong Android Studio.
 Build và chạy ứng dụng trên thiết bị ảo hoặc điện thoại thật.
 
-4. Kiểm Tra Ứng Dụng
+### 4. Kiểm Tra Ứng Dụng
 Khi ứng dụng chạy, bạn có thể:
 
 Đăng ký tài khoản mới.
@@ -101,6 +106,5 @@ Tạo một nhánh mới: git checkout -b feature-branch.
 Thực hiện thay đổi và commit: git commit -m 'Add feature'.
 Push lên nhánh đó: git push origin feature-branch.
 Tạo một pull request để gửi đóng góp.
-Giấy Phép
-Dự án này được cấp phép theo giấy phép MIT. Xem file LICENSE để biết thêm chi tiết.
+
 
