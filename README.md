@@ -1,4 +1,5 @@
 Ứng Dụng Bán Balo
+
 Đây là ứng dụng Android quản lý việc bán balo. Ứng dụng được xây dựng bằng Java và sử dụng SQLite để quản lý cơ sở dữ liệu cục bộ.
 
 Tính Năng
@@ -21,11 +22,13 @@ Android Studio phiên bản X.X trở lên.
 Java Development Kit (JDK) phiên bản 8 hoặc cao hơn.
 SQLite: SQLite được tích hợp sẵn trong Android nên không cần phải cài đặt thêm.
 Hướng Dẫn Cài Đặt
+
 1. Clone Repository
 bash
 Sao chép mã
 git clone https://github.com/your-username/Backpack-Selling-App.git
 cd Backpack-Selling-App
+
 2. Cấu Hình Cơ Sở Dữ Liệu SQLite
 Bạn không cần phải cài đặt hoặc cấu hình máy chủ cơ sở dữ liệu riêng vì SQLite là cơ sở dữ liệu cục bộ.
 
@@ -59,9 +62,11 @@ public class DBHelper extends SQLiteOpenHelper {
         onCreate(db);
     }
 }
+
 3. Build và Chạy Ứng Dụng
 Mở dự án trong Android Studio.
 Build và chạy ứng dụng trên thiết bị ảo hoặc điện thoại thật.
+
 4. Kiểm Tra Ứng Dụng
 Khi ứng dụng chạy, bạn có thể:
 
